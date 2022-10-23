@@ -1,0 +1,116 @@
+html,
+body {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue';
+
+}
+
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 456px;
+    height: 456px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px whitesmoke;
+    border-radius: 10px;
+}
+
+.cell {
+
+    box-shadow: 0 0 0 1px #ffffff;
+    background-image: url("./Images/pexels-adrien-olichon-2538107.jpg");
+    background-size: 100%;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cell .token {
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+
+.planets {
+    width: 250px;
+    margin-top: 50px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+#planetflex {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+#restart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .copyright {
+    font-size: 12pt;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+}
+
+main {
+    min-height: 85vh;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+.galaxy {
+    margin: auto;
+    width: 200px;
+}
+
+.headerimage {
+    display: flex;
+    justify-content: center;
+}
+
+.headerimage img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#restart img {
+    width: 100px;
+}
+
+.game-restart {
+    height: 50px;
+    margin-right: 30px;
+    font-size: 15pt;
+}
+
+#restart img,
+button {
+    position: relative;
+    left: 65px
+}
