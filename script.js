@@ -1,11 +1,11 @@
 (function () {
     "use strict";
 
-    const blueplanet = "./images/BluePlanet.png";
-    const earth = "./images/earth.png";
-    const jupiter = "./images/jupiter.png";
-    const moon = "./images/Moon.png";
-    const saturn = "./images/saturn.png"
+    const blueplanet = "./Images/BluePlanet.png";
+    const earth = "./Images/earth.png";
+    const jupiter = "./Images/jupiter.png";
+    const moon = "./Images/Moon.png";
+    const saturn = "./Images/saturn.png"
     var turnimage = document.createElement('img');
     var player = earth;
 
