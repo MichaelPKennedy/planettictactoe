@@ -1,11 +1,11 @@
 (function () {
     "use strict";
 
-    const blueplanet = "./Images/BluePlanet.png";
-    const earth = "./Images/earth.png";
-    const jupiter = "./Images/jupiter.png";
-    const moon = "./Images/Moon.png";
-    const saturn = "./Images/saturn.png"
+    const blueplanet = "../planettictactoe/Images/BluePlanet.png";
+    const earth = "../planettictactoe/Images/earth.png";
+    const jupiter = "../planettictactoe/Images/jupiter.png";
+    const moon = "../planettictactoe/Images/Moon.png";
+    const saturn = "../planettictactoe/Images/saturn.png"
     var turnimage = document.createElement('img');
     var player = earth;
 
